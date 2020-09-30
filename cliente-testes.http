@@ -6,16 +6,19 @@ Content-Type: application/json
 Accept: application/json
 
 {
-    "medida": "ideia",
+    "medida": "aplicativo",
     "marcadores": [
-        {"local": "quarto"},
-        {"personagem": "Lola"},
-        {"acao": "curiosa"}
+        {"local": "casa1"},
+        
+        
     ],
     "valores": [
         {"latitude": -27.6084177},
         {"longitude": -48.6354691},
-        {"altitude": 80}
+        {"quartos": 3},
+        {"cozinhas": 1},
+        {"banheiros": 2},
+        {"salas": 1},
     ]
 }
 
