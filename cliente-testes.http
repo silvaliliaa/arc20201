@@ -22,7 +22,7 @@ Accept: application/json
     ]
 }
 
-###
+# Aplicativo,local=casa1 latitude=-27.6084177,longitude=-48.6354691,quartos=3,banheiros=2,sala=1,cozinha=1
 
 # Requisição inválida: cabeçalho não menciona formato
 POST http://localhost:5000/gravar
